@@ -1,15 +1,23 @@
 # vue-project
 
-> A Vue.js project
+>  Vue.js project
 
-## Build Setup
+## vue 项目搭建注意事项
 
 ``` bash
-# install dependencies
+# 依赖环境
+1、安装npm 
+2、安装node
+3、安装cnpm (淘宝镜像)
+node --version (查看node是否安装成功)
+npm --version (查看npm是否安装成功)
+
 npm install
 
+-在所有的安装完毕之后，初始化一个项目 cnpm init 初始化之后会在package.json 生成依赖文件，通过cnpm install 安装即可
+#运行项目
+-cnpm run dev
 # serve with hot reload at localhost:8080
-npm run dev
 
 # build for production with minification
 npm run build
@@ -18,4 +26,3 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
