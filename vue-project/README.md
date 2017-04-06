@@ -2,21 +2,26 @@
 
 >  Vue.js project
 
-## vue ÏîÄ¿´î½¨×¢ÒâÊÂÏî
+## vue é¡¹ç›®æ­å»ºå·¥ä½œè®°å½•
 
 ``` bash
-# ÒÀÀµ»·¾³
-1¡¢°²×°npm 
-2¡¢°²×°node
-3¡¢°²×°cnpm (ÌÔ±¦¾µÏñ)
-node --version (²é¿´nodeÊÇ·ñ°²×°³É¹¦)
-npm --version (²é¿´npmÊÇ·ñ°²×°³É¹¦)
-
-npm install
-
--ÔÚËùÓĞµÄ°²×°Íê±ÏÖ®ºó£¬³õÊ¼»¯Ò»¸öÏîÄ¿ cnpm init ³õÊ¼»¯Ö®ºó»áÔÚpackage.json Éú³ÉÒÀÀµÎÄ¼ş£¬Í¨¹ıcnpm install °²×°¼´¿É
-#ÔËĞĞÏîÄ¿
--cnpm run dev
+    #å¼€å‘ç¯å¢ƒå‡†å¤‡
+    
+    1.å®˜ç½‘ä¸‹è½½å®‰è£…node.js
+    2.å®‰è£…ä¾èµ–ç®¡ç†çš„åŒ…çš„å·¥å…·ï¼Œnpm
+        npm install
+    3.å®‰è£…æ·˜å®é•œåƒ
+        cnpm install
+    4.å®‰è£…vueçš„è„šæ‰‹æ¶ ç™¾åº¦
+    
+   #å®‰è£…ä¹‹åå¯æŸ¥çœ‹æ˜¯å¦å®‰è£…æˆåŠŸ
+   
+    node --version
+    npm --version
+    cnpm --version
+    vue
+    å®‰è£…æˆåŠŸä¼šæœ‰æç¤ºä¿¡æ¯
+    -cnpm run dev
 # serve with hot reload at localhost:8080
 
 # build for production with minification
